@@ -1,0 +1,18 @@
+---Bai1
+Blockchain là một công nghệ lưu trữ và xử lý thông tin phân tán và mã hóa, được sử dụng để xây dựng các hệ thống giao dịch đáng tin cậy và bảo mật trên internet. Hệ thống Blockchain cung cấp khả năng lưu trữ, quản lý và chia sẻ thông tin một cách công bằng và minh bạch giữa các bên mà không cần sự trung gian của các bên thứ ba. Các giao dịch trên Blockchain được lưu trữ trong các khối (block), mỗi khối có một mã hash độc nhất và liên kết với các khối trước và sau đó để tạo thành một chuỗi khối (blockchain) không đổi và không thể chỉnh sửa. Blockchain được sử dụng rộng rãi trong các ứng dụng tiền điện tử như Bitcoin hoặc Ethereum nhưng cũng được áp dụng trong nhiều lĩnh vực khác như chứng khoán, bảo hiểm, y tế, cảnh sát, bầu cử và quản lý chuỗi cung ứng.
+
+---Bai2:
+
++Decentralization (Phi tập trung): Một trong những tính chất quan trọng của blockchain là mạng phi tập trung hay decentralization. Điều này có nghĩa là không có một trung tâm điều khiển nào mà mọi giao dịch đều được xử lý bởi các nút mạng (network nodes) được phân tán trên toàn thế giới. Mọi người đều có thể tham gia vào mạng lưới này và được phép thực hiện các giao dịch trực tiếp mà không cần thông qua bên trung gian.
+
++Distributed (Phân tán): Blockchain là một đối tượng phân tán. Các nút mạng phân tán chứa các bản sao giống nhau của cùng một khối dữ liệu và được liên kết với nhau thông qua giao thức mạng P2P (Peer-to-Peer) để tạo thành một mạng lưới. Bạn có thể nghĩ về nó như là việc phân tán một tập hợp dữ liệu thành nhiều bản sao và truyền tải chúng trên nhiều máy tính vật lý khác nhau.
+
++Immutability (Không thể thay đổi): Các giao dịch trên blockchain có tính chất bất biến, nghĩa là một khi giao dịch đã được thêm vào blockchain, nó sẽ không bao giờ bị thay đổi hoặc xoá bỏ. Mỗi khối trên blockchain đều bao gồm một mã băm (hash) độc đáo được tính toán từ tất cả các khối trước đó và mã băm của nó cũng được tính toán vào khối tiếp theo. Điều này đảm bảo rằng một khi một khối được thêm vào blockchain, nó vĩnh viễn và không ai có thể thay đổi nó.
+
++Transparency (Sự minh bạch): Dữ liệu trên blockchain được hiển thị công khai và minh bạch cho tất cả các thành viên của mạng lưới. Bất kỳ ai đều có thể truy cập và kiểm tra tất cả các giao dịch trên blockchain. Điều này tạo ra sự đáng tin cậy cho hệ thống và đảm bảo rằng tất cả các bên liên quan đều được xem xét bình đẳng trên cùng một nền tảng.
+
+
+----bai3
+Node là một phần của mạng blockchain, có thể là một nút mạng hoặc một máy tính được cài đặt phần mềm blockchain. Node giữ một bản sao của toàn bộ blockchain và thực hiện các chức năng xác nhận và giao tiếp với các nút khác trong mạng.
+
+Block là một phần của blockchain, chứa thông tin về một số giao dịch được thêm vào blockchain. Mỗi block được xác nhận bằng cách giải quyết một giá trị băm và được liên kết với block trước đó, tạo thành một chuỗi những block. Các block này được lưu trữ trên các node trong mạng và mỗi node cần phải chứa tất cả các block để có thể xác nhận các giao dịch.
